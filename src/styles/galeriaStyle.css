@@ -1,0 +1,35 @@
+.main-content-gallery{
+
+      flex: 1;
+
+      margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.items-galeria {
+  display: flex;
+  flex-wrap: wrap;     
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.items-galeria div {
+  flex: 1 1 250px;     /* 👈 magia aquí */
+  max-width: 300px;    /* opcional para que no crezcan demasiado */
+
+  height: 200px;
+  background-color: #e9e7e2;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-secction p{
+    text-align: center;
+    margin: 5%;
+}
