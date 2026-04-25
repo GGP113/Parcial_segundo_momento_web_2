@@ -4,7 +4,9 @@ import '../styles/navBarStyle.css';
 function NavBar() {
   return (
     <nav>
-        <div className='mainName'>Zenith Bonsai</div>
+        
+
+        <a   href="/" className='mainName'>Zenith Bonsai</a>
         <div className='seccionesNavBar'>
             <a href="/philosophy">Filosofía</a>
             <a href="/gallery">Galería</a>

@@ -5,13 +5,15 @@ import "../styles/galeriaStyle.css";
 import "../styles/paginaPrincipal.css";
 import "../styles/formStyle.css";
 
+import { useState } from "react";
+
 function Reservas() {
   return (
     <div className="page-container">
       <NavBar />
 
       <main className="main-content-booking">
-        <div className="text-secction">
+        <div className="text-secction-booking">
           <h1>Reserva un Taller</h1>
           <p>
             Déjanos tus datos y nos pondremos en contacto para agendar tu

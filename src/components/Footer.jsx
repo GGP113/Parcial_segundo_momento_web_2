@@ -1,9 +1,12 @@
 import React from 'react'
+import '../styles/footerStyle.css';
 
 function Footer() {
   return (
     <footer>
-        © 2026 Zenith Bonsai Studio.
+
+        <p> © 2026 Zenith Bonsai Studio.</p>
+       
 
     </footer>
   )
