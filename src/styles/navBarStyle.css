@@ -4,6 +4,7 @@ nav{
     margin-top: 20px;
     border-bottom: 1px solid gray;
     padding-bottom: 5%;
+    font-family: var(--sans);
 }
 
 .seccionesNavBar{
